@@ -7,11 +7,10 @@ because it can have a big effect on resource utilization and the overall perform
 system.
 
 ## Simulate the following schedulers:
-1-Non-Preemptive Shortest- Job First (SJF).
-2-Shortest- Remaining Time First (SRTF) Scheduling using context switching
-3-Non-preemptive Priority Scheduling (with the solving of starvation problem using
-any way can be executed correctly).
-4-AG Scheduling:
+### 1-Non-Preemptive Shortest- Job First (SJF).
+### 2-Shortest- Remaining Time First (SRTF) Scheduling using context switching
+### 3-Non-preemptive Priority Scheduling (with the solving of starvation problem using any way can be executed correctly).
+### 4-AG Scheduling:
 a-The Round Robin (RR) CPU scheduling algorithm is a fair scheduling 
 algorithm that gives equal time quantum to all processes So All processes
 are provided a static time to execute called quantum.
