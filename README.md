@@ -6,7 +6,7 @@ processes run when there are multiple run-able processes. CPU scheduling is impo
 because it can have a big effect on resource utilization and the overall performance of the 
 system.
 
-##Simulate the following schedulers:
+## Simulate the following schedulers:
 1-Non-Preemptive Shortest- Job First (SJF).
 2-Shortest- Remaining Time First (SRTF) Scheduling using context switching
 3-Non-preemptive Priority Scheduling (with the solving of starvation problem using
@@ -18,7 +18,7 @@ are provided a static time to execute called quantum.
 b-A new factor is suggested to attach with each submitted process in our AG 
 scheduling algorithm. This factor sums the effects of all three basic factors 
 (priority, arrival time and burst time). The equation summarizes this relation 
-is: ####AG-Factor = Priority + Arrival Time + Burst Time
+is: *** AG-Factor = Priority + Arrival Time + Burst Time ***
 c-Once a process is executed for given time period, it’s called 
 Non-preemptive AG till the finishing of (ceil (50%)) of its Quantum time, 
 after that it’s converted to preemptive AG.
